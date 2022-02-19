@@ -1,4 +1,4 @@
 [style]
-INDENT_WIDTH = 2
-BLANK_LINES_AROUND_TOP_LEVEL_DEFINITION = 1
+# `pkgs.writers.writePython3` is a bit of a nazi about style, so we can't do
+# 2-space indents and other nice things.
 COLUMN_LIMIT = 100
